@@ -1,7 +1,13 @@
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
 const App = () => {
   return (
-<h1>Task - 2 by Cuneiform</h1>
-  )
-}
+    <main>
+      <Navbar />
+      <Hero />
+    </main>
+  );
+};
 
-export default App
+export default App;

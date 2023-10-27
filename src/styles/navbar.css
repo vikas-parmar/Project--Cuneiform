@@ -1,0 +1,46 @@
+header {
+  height: 100px;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+li {
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.outlined {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.outlined:hover{
+    background-color: #f7eadc;
+    transition: ease 300ms;
+}
+
+.filled {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #176AE5;
+    border-radius: 30px;
+}
+
+.filled:hover{
+    background-color: #104a9f;
+    transition: ease 300ms;
+}
