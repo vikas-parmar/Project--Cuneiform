@@ -1,0 +1,47 @@
+#templates {
+  display: flex;
+  margin: 160px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+p {
+  padding: 12px;
+  text-align: center;
+  font-weight: 500;
+}
+
+#templates button.outlined {
+  background-color: transparent;
+  color: black;
+  padding: 15px 30px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  transform: translate(45px, 10px);
+}
+.outlined:hover {
+  background-color: #dcbe9e;
+  transition: ease 300ms;
+}
+
+.template--container {
+  display: flex;
+  position: relative;
+  padding: 30px;
+  gap: 10px;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.template--container:hover {
+  overflow-x: auto;
+}
