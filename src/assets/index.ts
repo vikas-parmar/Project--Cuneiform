@@ -18,7 +18,7 @@ import temp6 from "./temp-6.png";
 import temp7 from "./temp-7.png";
 import temp8 from "./temp-8.png";
 import bg from "./bg.png";
-import vector from "./vector.png";
+import vector from "./Vector.png";
 
 
 const brands = [
