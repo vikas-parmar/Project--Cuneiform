@@ -18,7 +18,7 @@ import temp6 from "./temp-6.png";
 import temp7 from "./temp-7.png";
 import temp8 from "./temp-8.png";
 import bg from "./bg.png";
-import vector from "./Vector.png";
+import v from "./Vector.png";
 
 
 const brands = [
@@ -31,5 +31,5 @@ const brands = [
 ]
 
 export {
-    hero_img, write, line, brands, laptop, wiki, temp1, temp2, temp3, temp4, temp5, temp6, temp7, temp8, bg, vector
+    hero_img, write, line, brands, laptop, wiki, temp1, temp2, temp3, temp4, temp5, temp6, temp7, temp8, bg, v
 }

@@ -1,4 +1,4 @@
-import { bg, vector } from "../assets";
+import { bg, v } from "../assets";
 import "../styles/footer.css";
 
 const Footer = () => {
@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <img src={bg} alt="" style={{ width: "100%" }} />
       <img
-        src={vector}
+        src={v}
         alt=""
         style={{
           position: "relative",
