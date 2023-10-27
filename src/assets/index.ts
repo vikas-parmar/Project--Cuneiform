@@ -1,6 +1,8 @@
 import hero_img from "./hero.png";
 import write from "./write.png";
 import line from "./line.png";
+import laptop from "./laptop.png";
+import wiki from "./laptop-page.png"
 import brand_1 from "./brand-1.png";
 import brand_2 from "./brand-2.png";
 import brand_3 from "./brand-3.png";
@@ -18,4 +20,4 @@ const brands = [
     brand_6,
 ]
 
-export { hero_img, write, line, brands }
+export { hero_img, write, line, brands, laptop, wiki }
